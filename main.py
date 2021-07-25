@@ -119,8 +119,8 @@ def caart(img):
 
 # 获取文件路径
 
-read_path = r"D:\Code\Python\Cartnoon\src"
-output_path = r"D:\Code\Python\Cartnoon\output"
+read_path = r"...\src"
+output_path = r"...\output"
 
 
 
