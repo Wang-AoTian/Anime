@@ -18,11 +18,11 @@ def save_image(num, image):
         None
     """
 
-    image_path = "D:\Code\Python\Cartnoon\src\{}.png".format(str(num))
+    image_path = "...\src\{}.png".format(str(num))
     cv2.imwrite(image_path, image)
 
 
-file_path = "D:\Code\Python\Cartnoon\OriginVedio.mp4"
+file_path = "...\OriginVedio.mp4"
 
 vc = cv2.VideoCapture(file_path)  # import video files
 
