@@ -2,7 +2,7 @@ import cv2
 import os
 import shutil
 # from config import fg_video_path
-origin_video_path = r"D:\Code\Python\Cartnoon\OriginVedio.mp4"
+origin_video_path = r"...\OriginVedio.mp4"
 
 
 def become_video(output_figure):
@@ -29,4 +29,4 @@ def become_video(output_figure):
 
 
 if __name__ == '__main__':
-    video = become_video(r"D:\Code\Python\Cartnoon\output")
+    video = become_video(r"...\output")
